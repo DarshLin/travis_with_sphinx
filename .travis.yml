@@ -1,6 +1,6 @@
 language: python
 python:
-    - "2.7"
+    - "3.6"
 
 before_install: cd sphinx
 
@@ -9,4 +9,4 @@ cache: pip
 
 install: "pip install sphinx"
 install: "pip install sphinx_rtd_theme"
-script: sphinx-build -nWT -b html -d  . /html
+script: sphinx-build -nWT -b html -d _build/doctrees  . _build/html
