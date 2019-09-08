@@ -10,5 +10,4 @@ before_install: cd sphinx
 
 install: "pip install sphinx"
 install: "pip install sphinx_rtd_theme"
-// script: sphinx-build -nWT -b html . _build/html
-script: ls -la && pwd
+script: sphinx-build -nWT -b html . _build/html
