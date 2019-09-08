@@ -7,5 +7,5 @@ before_install: cd sphinx
 sudo: false
 cache: pip
 
-install "pip install sphinx"
+install: "pip install sphinx"
 script: sphinx-build -nWT -b . /html/
