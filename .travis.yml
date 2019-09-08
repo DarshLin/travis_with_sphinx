@@ -5,7 +5,8 @@ python:
 sudo: false
 cache: pip
 
+before_install: cd sphinx
+
 install: "pip install sphinx"
 install: "pip install sphinx_rtd_theme"
-before_script: cd /sphinx/
-script: sphinx-build -nWT -b html -d _build/doctrees  . _build/html
+script: sphinx-build -nWT -b html . _build/html
