@@ -8,4 +8,4 @@ sudo: false
 cache: pip
 
 install: "pip install sphinx"
-script: sphinx-build -nWT -b . /html/
+script: sphinx-build  . html
