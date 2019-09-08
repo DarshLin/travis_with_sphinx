@@ -8,4 +8,5 @@ sudo: false
 cache: pip
 
 install: "pip install sphinx"
+install: "pip install sphinx_rtd_theme"
 script: sphinx-build  . html
