@@ -6,7 +6,7 @@ sudo: false
 cache: pip
 
 before_install: cd sphinx
-before_script: ls -la
+before_script: ls -la && pwd
 
 install: "pip install sphinx"
 install: "pip install sphinx_rtd_theme"
